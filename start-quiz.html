@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Start Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <h3>Answer and submit with in time alotted</h3>
+    <div id="quiz"></div>
+    <br />
+    <div class="buttons-holder">
+      <a
+        id="submit"
+        class="button button-submit"
+        href="#popup1"
+        onSubmit="return my_confirm()"
+        >Submit Quiz</a
+      >
+      <a id="reset" class="button">Reset Quiz</a>
+    </div>
+    <!--<a id="check" class="button" href="#popup1">Check</a>-->
+    <div id="results"></div>
+    <div id="some_div"></div>
+    <!--css only modal-->
+    <div class="box"></div>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <p id="popupInfo"></p>
+        <a class="close" href="#">&times;</a>
+      </div>
+    </div>
+    <!--end of css only modal-->
+    <script src="js/quiz_demo.js"></script>
+  </body>
+</html>
